@@ -158,5 +158,5 @@ Si ce projet vous est utile, n'hésitez pas à :
  Proposer des fonctionnalités
 
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/> </p><p align="center"> <b>Fait avec ❤️ par des passionnés de cybersécurité</b><br> <a href="https://github.com/zerodaysoulThiam">GitHub</a> • <a href="https://linkedin.com/in/[tonprofil](https://www.linkedin.com/in/mouhamadou-mokhtar-thiam-6a2199308)">LinkedIn</a> 
-</p><p align="center"> <img src="https://visitcount.itsvg.in/api?id=network-scanner-pro&label=Visiteurs&color=0&icon=5&pretty=true" /> </p>
+
 
