@@ -8,35 +8,20 @@ Network Scanner Pro est bien plus qu'un simple scanner - c'est une suite complè
 ✨ Pourquoi choisir Network Scanner Pro ?
 python
 # Ce que vous obtenez :
-✅ Scan ultra-rapide (500+ IPs/minute)
-✅ Architecture modulaire et extensible
-✅ Dashboard HTML professionnel
-✅ Export multi-formats (CSV, JSON, HTML)
-✅ Binaire portable (.exe) sans dépendances
-✅ Documentation exhaustive
-✅ Support multi-plateforme
-🚀 Fonctionnalités Révolutionnaires
-🔍 Moteur de Scan Avancé
+ Scan ultra-rapide (500+ IPs/minute)
+ Architecture modulaire et extensible
+ Dashboard HTML professionnel
+ Export multi-formats (CSV, JSON, HTML)
+ Binaire portable (.exe) sans dépendances
+ Documentation exhaustive
+ Support multi-plateforme
+ Fonctionnalités Révolutionnaires
+ Moteur de Scan Avancé
 Fonctionnalité	Description	Performance
 Ping Sweep	Détection multi-threadée (200 threads)	⚡ 254 IPs en < 3s
 ARP Scan	Découverte niveau 2	🎯 100% précision
 Port Scanner	Scan 20+ ports critiques	🔓 0.2s/port
 OS Detection	Fingerprinting passif	🖥️ 95% précision
-📊 Rapports Professionnels
-bash
-📁 scan_results/
-├── 📄 rapport_scan_[date].html  # Dashboard interactif
-├── 📊 scan_reseau.csv            # Format tableur
-├── 📦 scan_reseau.json            # Format structuré
-└── 📋 hosts_actifs.txt            # Liste brute
-🛡️ Sécurité & Éthique
-✅ Code open-source audité
-
-✅ Aucune backdoor - transparence totale
-
-✅ Usage éthique uniquement - clause légale incluse
-
-✅ Journalisation complète - traçabilité des actions
 
 🎨 Dashboard Interactif
 <p align="center"> <img src="https://via.placeholder.com/800x400/0a1929/00ff00?text=Network+Scanner+Pro+Dashboard" alt="Dashboard Preview" width="800"/> </p>
@@ -75,6 +60,7 @@ Option 3 : Binaire Portable 📦
 bash
 # Téléchargez le .exe depuis Releases
 # Double-cliquez - Aucune installation requise !
+
 📖 Guide d'Utilisation Complet
 🔰 Démarrage Rapide
 python
@@ -113,71 +99,6 @@ python scanner.py --json --output data.json
 python scanner.py --quiet --csv scan.csv
 🏗️ Architecture Technique
 
-
-
-
-
-
-
-
-
-
-
-📦 Structure du Code
-text
-network-scanner-pro/
-├── 📁 src/
-│   ├── scanner.py          # Moteur principal
-│   ├── modules/            # Modules spécialisés
-│   │   ├── ping.py
-│   │   ├── arp.py
-│   │   └── ports.py
-│   └── utils/              # Utilitaires
-│       ├── logger.py
-│       └── exporter.py
-├── 📁 templates/            # Templates HTML
-│   └── dashboard.html
-├── 📁 docs/                 # Documentation
-├── 📁 tests/                # Tests unitaires
-├── requirements.txt         # Dépendances
-├── install.bat              # Install Windows
-└── README.md                # Ce fichier
-🛠️ Configuration Avancée
-Fichier de Configuration config.yaml
-yaml
-scan:
-  threads: 500
-  timeout: 0.3
-  ports: [21,22,23,25,53,80,443,445,3389,5900]
-  
-reporting:
-  format: html
-  output_dir: ./rapports
-  include_graphs: true
-  
-security:
-  log_level: INFO
-  audit_trail: true
-  max_hosts: 10000
-📊 Benchmarks de Performance
-Type de Scan	Taille Réseau	Temps	Précision
-Ping Sweep	/24 (254 IPs)	2.3s	99.9%
-ARP Scan	/24	1.8s	100%
-Port Scan (20 ports)	/24	4.7s	98.5%
-Scan Complet	/24	8.2s	97%
-🔒 Sécurité & Conformité
-Bonnes Pratiques Intégrées
-✅ Rate limiting automatique
-
-✅ Détection d'intrusion basique
-
-✅ Logs horodatés complets
-
-✅ Mode furtif (évite la détection)
-
-Avertissement Légal
-python
-"""
 ⚠️ IMPORTANT - Usage Strictement Éthique
 Ce scanner est conçu pour :
 ✓ Tests d'intrusion autorisés
@@ -200,16 +121,6 @@ Comment Contribuer ?
 
 Nos Contributeurs
 <a href="https://github.com/tonusername/network-scanner-pro/graphs/contributors"> <img src="https://contrib.rocks/image?repo=tonusername/network-scanner-pro" /> </a>
-📈 Roadmap 2024-2025
-Q1 2024 : Support IPv6 complet
-
-Q2 2024 : Intégration Shodan API
-
-Q3 2024 : Mode GUI graphique
-
-Q4 2024 : Plugin système pour extensions
-
-2025 : Version Enterprise avec dashboard cloud
 
 📚 Documentation & Ressources
 📖 Wiki Complet - Guides détaillés
@@ -223,12 +134,6 @@ Q4 2024 : Plugin système pour extensions
 🏆 Reconnaissances
 Utilisé par
 <p align="center"> <img src="https://img.shields.io/badge/Entreprises-500%2B-00FF00?style=flat-square"/> <img src="https://img.shields.io/badge/Universities-50%2B-4169E1?style=flat-square"/> <img src="https://img.shields.io/badge/Countries-30%2B-FF4500?style=flat-square"/> </p>
-Témoignages
-"Le meilleur scanner open-source que j'ai utilisé - complet, rapide et professionnel"
-— John Doe, Pentester Senior @ CyberCorp
-
-"L'interface HTML est magnifique, les exports sont parfaits pour mes rapports d'audit"
-— Jane Smith, Consultante Sécurité
 
 📜 Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
@@ -236,22 +141,23 @@ Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 text
 MIT License
 
-Copyright (c) 2024 Network Scanner Pro
+Copyright (c) 2026 Mokhtar Thiam
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
-🌟 Supportez le Projet
+
+ Supportez le Projet
 Si ce projet vous est utile, n'hésitez pas à :
 
-⭐ Mettre une étoile sur GitHub
+ Mettre une étoile sur GitHub
 
-🔄 Partager avec vos collègues
+ Partager avec vos collègues
 
-🐛 Signaler des bugs pour améliorer
+ Signaler des bugs pour améliorer
 
-💡 Proposer des fonctionnalités
+ Proposer des fonctionnalités
 
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/> </p><p align="center"> <b>Fait avec ❤️ par des passionnés de cybersécurité</b><br> <a href="https://github.com/tonusername">GitHub</a> • <a href="https://linkedin.com/in/tonprofil">LinkedIn</a> • <a href="https://twitter.com/tontweet">Twitter</a> </p><p align="center"> <img src="https://visitcount.itsvg.in/api?id=network-scanner-pro&label=Visiteurs&color=0&icon=5&pretty=true" /> </p>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/> </p><p align="center"> <b>Fait avec ❤️ par des passionnés de cybersécurité</b><br> <a href="https://github.com/zerodaysoulThiam">GitHub</a> • <a href="https://linkedin.com/in/[tonprofil](https://www.linkedin.com/in/mouhamadou-mokhtar-thiam-6a2199308)">LinkedIn</a> • <a href="https://twitter.com/tontweet">Twitter</a> </p><p align="center"> <img src="https://visitcount.itsvg.in/api?id=network-scanner-pro&label=Visiteurs&color=0&icon=5&pretty=true" /> </p>
 🚀 Installation 1-Click avec les badges
 markdown
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
